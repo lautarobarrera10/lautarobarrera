@@ -1,0 +1,3 @@
+[submodule "pomodore-tracker"]
+	path = pomodore-tracker
+	url = git@github.com:lautarobarrera10/pomodore-tracker.git
