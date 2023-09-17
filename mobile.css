@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* GRID */
+.portada {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+}
+
+.portafolio {
+    grid-row: 1;
+}
+
+.photo-container {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.presentacion {
+    grid-row: 3;
+}
+
+/* ESTILOS */
+.portada {
+    text-transform: uppercase;
+    color: white;
+}
+
+.portafolio {
+    text-align: center;
+    background-color: black;
+}
+
+.presentacion {
+    transform: translateY(-300px);
+}
+
+.presentacion .hola-soy {
+    padding: 8px 20px;
+    width: fit-content;
+    background-color: black;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.presentacion h1 {
+    padding: 8px 20px;
+    margin: 0;
+    font-size: 1.6rem;
+    background-color: rgb(82, 82, 82);
+}
+
+.presentacion .resaltado {
+    width: fit-content;
+    margin: 0;
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    background-color: yellow;
+}
+
+/* FOTO */
+.my-photo {
+    width: 100%;
+}
+
+/* NAVEGACIÓN  */
+.photo-container {
+    background-color: rgb(82, 82, 82);
+}
+
+.photo-container .nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.portada .photo-container .nav li {
+    margin: 0 12px;
+    list-style: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:800px) {
+    body {
+        max-width: 1200px;
+    }
+    .portada {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 60px 562.5px;
+    }
+    .portafolio {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+    .photo-container {
+        grid-row: 1;
+        grid-column: 3/6;
+        flex-direction: column;
+    }
+    .presentacion {
+        transform: translate(180px ,-300px);
+    }
+}
