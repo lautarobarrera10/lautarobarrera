@@ -27,11 +27,11 @@ h2.title-section {
 }
 
 .portada-container {
-    background-color: black;
+    background-color: #151412;
 }
 
 .proyectos-section-container {
-    background-color: #252525;
+    background-color: #151412;
 }
 
 a {
@@ -79,7 +79,7 @@ ul {
 
 .portafolio {
     text-align: center;
-    background-color: black;
+    background-color: #151412;
 }
 
 .presentacion {
@@ -91,7 +91,7 @@ ul {
 .presentacion .hola-soy {
     padding: 8px 20px;
     width: fit-content;
-    background-color: black;
+    background-color: #151412;
     margin: 0;
     font-size: 1.2rem;
 }
@@ -110,7 +110,7 @@ ul {
     padding: 8px 20px;
     font-size: 1.2rem;
     font-weight: 600;
-    color: black;
+    color: #151412;
     background-color: yellow;
 }
 
@@ -147,15 +147,38 @@ ul {
 }
 
 .proyectos {
-    padding-bottom: 100px;
+    width: 90%;
+    position: relative;
+    padding: 20px;
+    background-color: #343434;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.esquina {
+    position: absolute;
+}
+
+.esquina.izq {
+    top: 0;
+    left: 0;
+}
+
+.esquina.der {
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
 }
 
 .proyecto {
-    margin: 0 auto;
-    padding: 16px;
-    background-color: white;
-    width: 280px;
+    position: relative;
+    z-index: 1;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .proyecto h3 {
@@ -176,11 +199,7 @@ ul {
     text-align: center;
 }
 
-.img-container {
-    width: 250px;
-}
-
-.img-container img {
+.proyecto img {
     width: 100%;
 }
 

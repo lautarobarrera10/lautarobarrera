@@ -33,14 +33,22 @@
     </section>
     </div>
     <div class="proyectos-section-container">
+    <h2 class="title-section">Proyectos</h2>
     <section class="proyectos">
-        <h2 class="title-section">Proyectos</h2>
+        <div class="esquina izq">
+            <img src="./views/assets/images/esquina.png" alt="">
+        </div>
+        <div class="esquina der">
+            <img src="./views/assets/images/esquina.png" alt="">
+        </div>
         <div class="proyecto">
-            <h3>Calculadora IMC</h3>
-            <div class="img-container">
-                <img src="./views/assets/images/calculadora.png" alt="">
-            </div>
-            <a class="button" href="https://lautarobarrera10.github.io/calculadora-imc/" target="_blank">Ver sitio</a>
+            <img src="./views/assets/images/proyecto1.png" alt="">
+        </div>
+        <div class="proyecto">
+            <img src="./views/assets/images/proyecto2.png" alt="">
+        </div>
+        <div class="proyecto">
+            <img src="./views/assets/images/proyecto3.png" alt="">
         </div>
     </section>
     </div>
