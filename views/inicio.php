@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="portada">
+    <div class="portada-container">
+    <section class="portada">
         <div class="portafolio">
             <h2>Portafolio.</h2>
         </div>
@@ -22,7 +23,6 @@
         </div>
         <div class="photo-container">
         </div>
-        <div class="background-black"></div>
         <nav class="nav">
             <ul>
                 <li><a>Proyectos</a></li>
@@ -30,7 +30,16 @@
                 <li><a>Contacto</a></li>
             </ul>
         </nav>
+    </section>
     </div>
-    <a href="https://lautarobarrera10.github.io/calculadora-imc/" target="_blank">calculadora imc</a>
+    <section class="proyectos">
+        <div class="proyecto">
+            <h3>Calculadora IMC</h3>
+            <div class="img-container">
+                <img src="./views/assets/images/calculadora.png" alt="">
+            </div>
+            <a href="https://lautarobarrera10.github.io/calculadora-imc/" target="_blank">Ver sitio</a>
+        </div>
+    </section>
 </body>
 </html>
