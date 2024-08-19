@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lautaro Barrera</title>
-    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./views/assets/css/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -25,9 +25,9 @@
         <div class="background-black"></div>
         <nav class="nav">
             <ul>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#sobre-mi">Sobre mi</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a>Proyectos</a></li>
+                <li><a>Sobre mi</a></li>
+                <li><a>Contacto</a></li>
             </ul>
         </nav>
     </div>
