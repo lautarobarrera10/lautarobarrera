@@ -23,7 +23,11 @@ h2 {
 }
 
 h2.title-section {
-    padding-top: 60px;
+    font-size: 1.8rem;
+    padding-block: 80px 32px;
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .portada-container {
@@ -179,6 +183,7 @@ ul {
     z-index: 1;
     border-radius: 5px;
     overflow: hidden;
+    width: 100%;
 }
 
 .proyecto h3 {
@@ -201,6 +206,15 @@ ul {
 
 .proyecto img {
     width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    h2.title-section {
+        text-align: start;
+    }
+    .proyecto {
+        max-width: calc(50% - 11px);
+    }
 }
 
 @media screen and (min-width:600px) {
@@ -234,5 +248,13 @@ ul {
     .photo-container {
         height: 530px;
     }
+    .proyecto {
+        max-width: calc(33% - 11px)
+    }
 }
 
+@media screen and (min-width:1440px) {
+    .proyecto {
+        max-width: 314px;
+    }
+}

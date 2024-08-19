@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./views/assets/images/lautaro.png" type="image/png">
 </head>
 <body>
     <div class="portada-container">
@@ -33,7 +34,7 @@
     </section>
     </div>
     <div class="proyectos-section-container">
-    <h2 class="title-section">Proyectos</h2>
+    <h2 class="title-section">Proyectos destacados</h2>
     <section class="proyectos">
         <div class="esquina izq">
             <img src="./views/assets/images/esquina.png" alt="">
