@@ -32,14 +32,17 @@
         </nav>
     </section>
     </div>
+    <div class="proyectos-section-container">
     <section class="proyectos">
+        <h2 class="title-section">Proyectos</h2>
         <div class="proyecto">
             <h3>Calculadora IMC</h3>
             <div class="img-container">
                 <img src="./views/assets/images/calculadora.png" alt="">
             </div>
-            <a href="https://lautarobarrera10.github.io/calculadora-imc/" target="_blank">Ver sitio</a>
+            <a class="button" href="https://lautarobarrera10.github.io/calculadora-imc/" target="_blank">Ver sitio</a>
         </div>
     </section>
+    </div>
 </body>
 </html>
