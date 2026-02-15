@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Lautaro Agustin Barrera - Desarrollador Web y Especialista en Automatizacion en Cipolletti, Argentina.">
     <title>Lautaro Agustin Barrera | Desarrollador Web & Automatizacion</title>
-    <link rel="stylesheet" href="./views/assets/css/mobile.css">
+    <link rel="stylesheet" href="./views/assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -27,6 +28,7 @@
         <nav class="nav">
             <ul>
                 <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#sobre-mi">Sobre mi</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -38,13 +40,13 @@
     <h2 class="title-section">Proyectos destacados</h2>
     <section class="proyectos">
         <div class="esquina izq">
-            <img src="./views/assets/images/esquina.png" alt="">
+            <img src="./views/assets/images/esquina.png" alt="" role="presentation">
         </div>
         <div class="esquina der">
-            <img src="./views/assets/images/esquina.png" alt="">
+            <img src="./views/assets/images/esquina.png" alt="" role="presentation">
         </div>
         <div class="proyecto">
-            <img src="./views/assets/images/proyecto1.png" alt="Estudio de Arquitectos">
+            <img src="./views/assets/images/proyecto1.png" alt="Estudio de Arquitectos" loading="lazy">
             <div class="proyecto-overlay">
                 <h3>Estudio de Arquitectos</h3>
                 <p>JavaScript | React.js | HTML | CSS</p>
@@ -52,7 +54,7 @@
             </div>
         </div>
         <div class="proyecto">
-            <img src="./views/assets/images/proyecto2.png" alt="Proyecto 2">
+            <img src="./views/assets/images/proyecto2.png" alt="Proyecto 2" loading="lazy">
             <div class="proyecto-overlay">
                 <h3>Proyecto 2</h3>
                 <p>Sitio web responsive</p>
@@ -60,7 +62,7 @@
             </div>
         </div>
         <div class="proyecto">
-            <img src="./views/assets/images/proyecto3.png" alt="Proyecto 3">
+            <img src="./views/assets/images/proyecto3.png" alt="Proyecto 3" loading="lazy">
             <div class="proyecto-overlay">
                 <h3>Proyecto 3</h3>
                 <p>Plataforma interactiva</p>

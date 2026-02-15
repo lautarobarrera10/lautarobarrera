@@ -17,7 +17,6 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
     background-color: var(--color-bg);
 }
 
@@ -25,7 +24,6 @@ section {
     margin: 0 auto;
     max-width: 1024px;
 }
-
 
 h2 {
     text-align: center;
@@ -39,15 +37,6 @@ h2.title-section {
     max-width: 1024px;
     width: 90%;
     margin: 0 auto;
-}
-
-.portada-container {
-    background-color: var(--color-bg);
-    min-height: 100vh;
-}
-
-.proyectos-section-container {
-    background-color: var(--color-bg);
 }
 
 a {
@@ -81,13 +70,22 @@ ul {
     animation: fadeInUp 0.8s ease-out forwards;
 }
 
-/* GRID */
+/* PORTADA */
+.portada-container {
+    background-color: var(--color-bg);
+    min-height: 100vh;
+}
+
 .portada {
     display: grid;
+    text-transform: uppercase;
+    color: var(--color-text);
 }
 
 .portafolio {
     grid-row: 1;
+    text-align: center;
+    background-color: var(--color-bg);
 }
 
 .photo-container {
@@ -100,21 +98,7 @@ ul {
     background-image: url("../images/lautaro.png");
     background-size: cover;
     background-position: center;
-}
-
-.presentacion {
-    grid-row: 3;
-}
-
-/* ESTILOS */
-.portada {
-    text-transform: uppercase;
-    color: var(--color-text);
-}
-
-.portafolio {
-    text-align: center;
-    background-color: var(--color-bg);
+    background-color: var(--color-grey);
 }
 
 .presentacion {
@@ -149,17 +133,7 @@ ul {
     background-color: var(--color-accent);
 }
 
-/* FOTO */
-.my-photo {
-    width: 100%;
-}
-
-.photo-container {
-    background-color: var(--color-grey);
-}
-
 /* NAVEGACION */
-
 .nav {
     height: fit-content;
     background-color: rgba(52, 52, 52, 0.85);
@@ -205,6 +179,10 @@ ul {
 }
 
 /* PROYECTOS */
+.proyectos-section-container {
+    background-color: var(--color-bg);
+}
+
 .proyectos {
     width: 90%;
     position: relative;
@@ -252,7 +230,6 @@ ul {
 .proyecto h3 {
     margin-block: 14px;
     font-size: 1.2rem;
-    font-family: 'Lato', sans-serif;
 }
 
 .proyecto .button {
@@ -437,7 +414,7 @@ ul {
 }
 
 /* RESPONSIVE */
-@media screen and (min-width:600px) {
+@media screen and (min-width: 600px) {
     .portada {
         grid-template-columns: 2fr 3fr;
     }
@@ -449,10 +426,6 @@ ul {
     }
     .presentacion {
         transform: translate(130px, -154px);
-        animation: none;
-    }
-    .fade-in-up {
-        animation: fadeInUp 0.8s ease-out forwards;
     }
     .nav {
         height: 100%;
@@ -464,7 +437,7 @@ ul {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     h2.title-section {
         text-align: start;
     }
@@ -479,7 +452,7 @@ ul {
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .presentacion {
         transform: translate(250px, -210px);
     }
@@ -497,7 +470,7 @@ ul {
     }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
     .proyecto {
         max-width: 314px;
     }
