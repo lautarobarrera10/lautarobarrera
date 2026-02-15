@@ -1,0 +1,17 @@
+{
+  "name": "lautarobarrera",
+  "version": "1.0.0",
+  "description": "Sitio web personal de portafolio construido con PHP puro y CSS responsive.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./views/assets/css/input.css -o ./views/assets/css/styles.css --minify",
+    "dev": "npx @tailwindcss/cli -i ./views/assets/css/input.css -o ./views/assets/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "Lautaro Barrera <lautarobarrera12@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
