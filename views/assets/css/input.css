@@ -2,12 +2,13 @@
 
 @theme {
     --color-bg: #151412;
-    --color-accent: #FFD600;
+    --color-accent: #3B82F6;
+    --color-accent-dark: #2563EB;
     --color-grey: #525252;
     --color-dark-grey: #343434;
     --color-text-muted: #a0a0a0;
     --color-footer-bg: #0e0d0b;
-    --font-lato: 'Lato', sans-serif;
+    --font-inter: 'Inter', sans-serif;
 }
 
 /* ANIMACIONES */
@@ -52,4 +53,9 @@
 
 .proyecto:hover img {
     @apply scale-105;
+}
+
+/* CARDS - glow azul en hover */
+.card-glow:hover {
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.2);
 }

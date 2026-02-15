@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="./views/assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./views/assets/images/lautaro.png" type="image/png">
 </head>
-<body class="m-0 p-0 font-lato bg-bg">
+<body class="m-0 p-0 font-inter bg-bg">
     <div class="bg-bg min-h-screen">
     <section class="grid uppercase text-white sm:grid-cols-[2fr_3fr]">
         <div class="row-start-1 text-center bg-bg sm:col-start-1">
@@ -21,7 +21,7 @@
         <div class="fade-in-up col-start-1 row-start-3 sm:translate-x-[130px] sm:-translate-y-[154px] lg:translate-x-[250px] lg:-translate-y-[210px] -translate-y-[110px]">
             <p class="py-2 px-5 w-fit bg-bg m-0 text-xl">Hola, soy</p>
             <h1 class="w-fit py-2 px-5 m-0 text-4xl lg:text-5xl bg-grey">Lautaro Barrera</h1>
-            <p class="w-fit m-0 py-2 px-5 text-sm font-semibold text-bg bg-accent">Desarrollador Web & Especialista en Automatizacion</p>
+            <p class="w-fit m-0 py-2 px-5 rounded-md text-sm font-semibold text-white bg-accent">Desarrollador Web & Especialista en Automatizacion</p>
         </div>
         <div class="w-full h-[450px] lg:h-[530px] row-start-2 row-end-4 col-start-1 sm:col-start-2 flex flex-col-reverse bg-cover bg-center bg-grey" style="background-image: url('./views/assets/images/lautaro.png');">
         </div>
@@ -38,35 +38,35 @@
 
     <div class="bg-bg" id="proyectos">
     <h2 class="text-3xl text-white py-20 pb-8 max-w-5xl w-[90%] mx-auto text-center md:text-start">Proyectos destacados</h2>
-    <section class="w-[90%] mx-auto relative p-5 bg-dark-grey rounded-md overflow-hidden flex justify-center gap-5 flex-wrap border border-accent/15">
+    <section class="w-[90%] mx-auto relative p-5 bg-dark-grey rounded-lg overflow-hidden flex justify-center gap-5 flex-wrap border border-accent/15">
         <div class="absolute top-0 left-0">
             <img src="./views/assets/images/esquina.png" alt="" role="presentation">
         </div>
         <div class="absolute right-0 bottom-0 rotate-180">
             <img src="./views/assets/images/esquina.png" alt="" role="presentation">
         </div>
-        <div class="proyecto relative z-10 rounded-md overflow-hidden w-full md:max-w-[calc(50%-11px)] lg:max-w-[calc(33%-11px)] 2xl:max-w-[314px] shadow-[0_4px_15px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-[0_8px_25px_rgba(0,0,0,0.5)]">
+        <div class="proyecto relative z-10 rounded-lg overflow-hidden w-full md:max-w-[calc(50%-11px)] lg:max-w-[calc(33%-11px)] 2xl:max-w-[314px] shadow-[0_4px_15px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-[0_8px_25px_rgba(0,0,0,0.5)]">
             <img src="./views/assets/images/proyecto1.png" alt="Estudio de Arquitectos" loading="lazy" class="w-full block transition-transform duration-300 ease-in-out">
             <div class="proyecto-overlay">
                 <h3 class="my-3.5 text-xl">Estudio de Arquitectos</h3>
                 <p class="text-sm text-text-muted mt-1">JavaScript | React.js | HTML | CSS</p>
-                <a class="font-bold py-2.5 px-5 inline-block mt-3 uppercase bg-accent rounded-md text-bg text-center text-sm transition-all duration-300 ease-in-out hover:bg-[#e6c200] hover:text-bg hover:scale-105" href="https://lnkd.in/dZp4fYKQ" target="_blank">Ver proyecto</a>
+                <a class="font-bold py-2.5 px-5 inline-block mt-3 uppercase bg-accent rounded-md text-white text-center text-sm transition-all duration-300 ease-in-out hover:bg-accent-dark hover:text-white hover:scale-105" href="https://lnkd.in/dZp4fYKQ" target="_blank">Ver proyecto</a>
             </div>
         </div>
-        <div class="proyecto relative z-10 rounded-md overflow-hidden w-full md:max-w-[calc(50%-11px)] lg:max-w-[calc(33%-11px)] 2xl:max-w-[314px] shadow-[0_4px_15px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-[0_8px_25px_rgba(0,0,0,0.5)]">
+        <div class="proyecto relative z-10 rounded-lg overflow-hidden w-full md:max-w-[calc(50%-11px)] lg:max-w-[calc(33%-11px)] 2xl:max-w-[314px] shadow-[0_4px_15px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-[0_8px_25px_rgba(0,0,0,0.5)]">
             <img src="./views/assets/images/proyecto2.png" alt="Proyecto 2" loading="lazy" class="w-full block transition-transform duration-300 ease-in-out">
             <div class="proyecto-overlay">
                 <h3 class="my-3.5 text-xl">Proyecto 2</h3>
                 <p class="text-sm text-text-muted mt-1">Sitio web responsive</p>
-                <a class="font-bold py-2.5 px-5 inline-block mt-3 uppercase bg-accent rounded-md text-bg text-center text-sm transition-all duration-300 ease-in-out hover:bg-[#e6c200] hover:text-bg hover:scale-105" href="#">Ver proyecto</a>
+                <a class="font-bold py-2.5 px-5 inline-block mt-3 uppercase bg-accent rounded-md text-white text-center text-sm transition-all duration-300 ease-in-out hover:bg-accent-dark hover:text-white hover:scale-105" href="#">Ver proyecto</a>
             </div>
         </div>
-        <div class="proyecto relative z-10 rounded-md overflow-hidden w-full md:max-w-[calc(50%-11px)] lg:max-w-[calc(33%-11px)] 2xl:max-w-[314px] shadow-[0_4px_15px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-[0_8px_25px_rgba(0,0,0,0.5)]">
+        <div class="proyecto relative z-10 rounded-lg overflow-hidden w-full md:max-w-[calc(50%-11px)] lg:max-w-[calc(33%-11px)] 2xl:max-w-[314px] shadow-[0_4px_15px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-[0_8px_25px_rgba(0,0,0,0.5)]">
             <img src="./views/assets/images/proyecto3.png" alt="Proyecto 3" loading="lazy" class="w-full block transition-transform duration-300 ease-in-out">
             <div class="proyecto-overlay">
                 <h3 class="my-3.5 text-xl">Proyecto 3</h3>
                 <p class="text-sm text-text-muted mt-1">Plataforma interactiva</p>
-                <a class="font-bold py-2.5 px-5 inline-block mt-3 uppercase bg-accent rounded-md text-bg text-center text-sm transition-all duration-300 ease-in-out hover:bg-[#e6c200] hover:text-bg hover:scale-105" href="#">Ver proyecto</a>
+                <a class="font-bold py-2.5 px-5 inline-block mt-3 uppercase bg-accent rounded-md text-white text-center text-sm transition-all duration-300 ease-in-out hover:bg-accent-dark hover:text-white hover:scale-105" href="#">Ver proyecto</a>
             </div>
         </div>
     </section>
@@ -87,7 +87,7 @@
         <section class="pb-20">
             <h2 class="text-3xl text-white py-20 pb-8 max-w-5xl w-[90%] mx-auto text-center md:text-start">Habilidades</h2>
             <div class="w-[90%] max-w-[900px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-7">
-                <div class="bg-bg rounded-md p-7 border border-accent/15 transition-all duration-300 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.3)]">
+                <div class="card-glow bg-bg rounded-xl p-7 border border-accent/15 transition-all duration-300 ease-in-out hover:-translate-y-1.5">
                     <h3 class="text-accent text-lg uppercase mb-4 tracking-wide">Frontend</h3>
                     <ul class="list-none flex flex-wrap gap-2.5 p-0">
                         <li class="text-text-muted bg-dark-grey py-1.5 px-3.5 rounded text-sm">JavaScript (ES6+)</li>
@@ -97,7 +97,7 @@
                         <li class="text-text-muted bg-dark-grey py-1.5 px-3.5 rounded text-sm">Diseño responsive</li>
                     </ul>
                 </div>
-                <div class="bg-bg rounded-md p-7 border border-accent/15 transition-all duration-300 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.3)]">
+                <div class="card-glow bg-bg rounded-xl p-7 border border-accent/15 transition-all duration-300 ease-in-out hover:-translate-y-1.5">
                     <h3 class="text-accent text-lg uppercase mb-4 tracking-wide">Herramientas</h3>
                     <ul class="list-none flex flex-wrap gap-2.5 p-0">
                         <li class="text-text-muted bg-dark-grey py-1.5 px-3.5 rounded text-sm">Git & GitHub</li>
@@ -106,7 +106,7 @@
                         <li class="text-text-muted bg-dark-grey py-1.5 px-3.5 rounded text-sm">V8 & navegadores</li>
                     </ul>
                 </div>
-                <div class="bg-bg rounded-md p-7 border border-accent/15 transition-all duration-300 ease-in-out hover:-translate-y-1.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.3)]">
+                <div class="card-glow bg-bg rounded-xl p-7 border border-accent/15 transition-all duration-300 ease-in-out hover:-translate-y-1.5">
                     <h3 class="text-accent text-lg uppercase mb-4 tracking-wide">Automatizacion & IA</h3>
                     <ul class="list-none flex flex-wrap gap-2.5 p-0">
                         <li class="text-text-muted bg-dark-grey py-1.5 px-3.5 rounded text-sm">n8n</li>
@@ -122,9 +122,9 @@
         <section class="pb-20">
             <h2 class="text-3xl text-white py-20 pb-8 max-w-5xl w-[90%] mx-auto text-center md:text-start">Contacto</h2>
             <div class="flex justify-center gap-5 md:gap-7 flex-wrap w-[90%] mx-auto">
-                <a href="https://github.com/lautarobarrera10" target="_blank" class="inline-block py-3.5 px-8 border-2 border-accent rounded-md text-accent font-bold uppercase text-sm transition-all duration-300 ease-in-out hover:bg-accent hover:text-bg hover:-translate-y-1 no-underline">GitHub</a>
-                <a href="https://www.linkedin.com/in/lautarobarrera" target="_blank" class="inline-block py-3.5 px-8 border-2 border-accent rounded-md text-accent font-bold uppercase text-sm transition-all duration-300 ease-in-out hover:bg-accent hover:text-bg hover:-translate-y-1 no-underline">LinkedIn</a>
-                <a href="mailto:contacto@lautarobarrera.com" class="inline-block py-3.5 px-8 border-2 border-accent rounded-md text-accent font-bold uppercase text-sm transition-all duration-300 ease-in-out hover:bg-accent hover:text-bg hover:-translate-y-1 no-underline">Email</a>
+                <a href="https://github.com/lautarobarrera10" target="_blank" class="inline-block py-3.5 px-8 border-2 border-accent rounded-full text-accent font-bold uppercase text-sm transition-all duration-300 ease-in-out hover:bg-accent hover:text-white hover:-translate-y-1 no-underline">GitHub</a>
+                <a href="https://www.linkedin.com/in/lautarobarrera" target="_blank" class="inline-block py-3.5 px-8 border-2 border-accent rounded-full text-accent font-bold uppercase text-sm transition-all duration-300 ease-in-out hover:bg-accent hover:text-white hover:-translate-y-1 no-underline">LinkedIn</a>
+                <a href="mailto:contacto@lautarobarrera.com" class="inline-block py-3.5 px-8 border-2 border-accent rounded-full text-accent font-bold uppercase text-sm transition-all duration-300 ease-in-out hover:bg-accent hover:text-white hover:-translate-y-1 no-underline">Email</a>
             </div>
         </section>
     </div>
