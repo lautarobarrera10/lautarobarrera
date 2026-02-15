@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lautaro Barrera</title>
+    <title>Lautaro Agustin Barrera | Desarrollador Web & Automatizacion</title>
     <link rel="stylesheet" href="./views/assets/css/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
         <div class="presentacion fade-in-up">
             <p class="hola-soy">Hola, soy</p>
             <h1>Lautaro Barrera</h1>
-            <p class="resaltado">Desarrollador web</p>
+            <p class="resaltado">Desarrollador Web & Especialista en Automatizacion</p>
         </div>
         <div class="photo-container">
         </div>
@@ -44,11 +44,11 @@
             <img src="./views/assets/images/esquina.png" alt="">
         </div>
         <div class="proyecto">
-            <img src="./views/assets/images/proyecto1.png" alt="Proyecto 1">
+            <img src="./views/assets/images/proyecto1.png" alt="Estudio de Arquitectos">
             <div class="proyecto-overlay">
-                <h3>Proyecto 1</h3>
-                <p>Aplicacion web moderna</p>
-                <a class="button" href="#">Ver proyecto</a>
+                <h3>Estudio de Arquitectos</h3>
+                <p>JavaScript | React.js | HTML | CSS</p>
+                <a class="button" href="https://lnkd.in/dZp4fYKQ" target="_blank">Ver proyecto</a>
             </div>
         </div>
         <div class="proyecto">
@@ -74,7 +74,9 @@
         <section class="sobre-mi">
             <h2 class="title-section">Sobre mi</h2>
             <div class="sobre-mi-content">
-                <p>Soy un desarrollador web apasionado por crear experiencias digitales modernas y funcionales. Me especializo en el desarrollo frontend y backend, buscando siempre soluciones creativas y eficientes.</p>
+                <p>Durante años, aprendi en el sector logistico y administrativo que un proceso mal diseñado es, en realidad, una oportunidad perdida. Esa misma curiosidad me llevo al mundo del software.</p>
+                <p>Hoy, como estudiante de la Tecnicatura en Desarrollo Web, no solo escribo codigo; diseño soluciones que resuelven fricciones operativas. Fusiono la capacidad analitica de la gestion logistica con la innovacion tecnologica para transformar flujos de informacion complejos en herramientas digitales simples y automatizadas.</p>
+                <p>Mi objetivo es claro: facilitar la vida de los usuarios y potenciar la productividad de las empresas a traves de tecnologia bien aplicada, estrategica y, sobre todo, funcional.</p>
             </div>
         </section>
     </div>
@@ -84,7 +86,7 @@
             <h2 class="title-section">Contacto</h2>
             <div class="contacto-links">
                 <a href="https://github.com/lautarobarrera10" target="_blank" class="contacto-link">GitHub</a>
-                <a href="https://linkedin.com" target="_blank" class="contacto-link">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/lautarobarrera" target="_blank" class="contacto-link">LinkedIn</a>
                 <a href="mailto:contacto@lautarobarrera.com" class="contacto-link">Email</a>
             </div>
         </section>
