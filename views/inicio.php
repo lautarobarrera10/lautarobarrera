@@ -81,6 +81,41 @@
         </section>
     </div>
 
+    <div class="habilidades-container" id="habilidades">
+        <section class="habilidades">
+            <h2 class="title-section">Habilidades</h2>
+            <div class="habilidades-grid">
+                <div class="habilidad-grupo">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Bootstrap</li>
+                        <li>Diseño responsive</li>
+                    </ul>
+                </div>
+                <div class="habilidad-grupo">
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>NPM</li>
+                        <li>Terminal & CLI</li>
+                        <li>V8 & navegadores</li>
+                    </ul>
+                </div>
+                <div class="habilidad-grupo">
+                    <h3>Automatizacion & IA</h3>
+                    <ul>
+                        <li>n8n</li>
+                        <li>Prompt Engineering</li>
+                        <li>ChatGPT</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <div class="contacto-container" id="contacto">
         <section class="contacto">
             <h2 class="title-section">Contacto</h2>
